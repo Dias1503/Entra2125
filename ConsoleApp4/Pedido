@@ -1,1 +1,8 @@
-
+namespace ConsoleApp6
+{
+    public class Pedido
+    {
+        public int NumeroPd { get; set; }
+        public List<Produto> ListaPd { get; set; } = new List<Produto>();
+    }
+}
